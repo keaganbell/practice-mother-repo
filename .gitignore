@@ -6,3 +6,8 @@
 *.obj
 *.ilk
 *.map
+
+# tracked separately in github
+clickable/
+computer_enhance/
+simple-scene/
