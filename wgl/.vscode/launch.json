@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run My Executable",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/win64_wgl.exe", // Path to your executable
+            "args": [],                                    // Optional arguments
+            "stopAtEntry": false,                          // Set to true to pause at entry
+            "cwd": "${workspaceFolder}",                   // Working directory
+            "console": "integratedTerminal"                // Use VS Code's terminal
+        }
+    ]
+}
