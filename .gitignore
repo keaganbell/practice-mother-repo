@@ -1,11 +1,15 @@
 *.exe
 *.dll
 *.lib
-
+*.exp
 *.pdb
 *.obj
 *.ilk
 *.map
+
+.vscode/
+*.4coder
+*.rdbg
 
 # tracked separately in github
 clickable/
